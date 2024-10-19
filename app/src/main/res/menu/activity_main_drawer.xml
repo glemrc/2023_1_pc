@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navListado"
+            android:icon="@drawable/baseline_playlist_add_check_circle_24"
+            android:title="@string/menu_listado" />"
+        <item
+            android:id="@+id/navRendimiento"
+            android:icon="@drawable/baseline_sports_soccer_24"
+            android:title="@string/menu_rendimiento" />
+        <item
+            android:id="@+id/navEquipo"
+            android:icon="@drawable/baseline_people_alt_24"
+            android:title="@string/menu_equipos" />
+    </group>
+</menu>

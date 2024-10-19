@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PC01_Resolución</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_listado">Listado</string>
+    <string name="menu_rendimiento">Rendimiento</string>
+    <string name="menu_equipos">Equipos</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="tvSignin">SIGN IN</string>
+    <string name="etEmail">Enter email</string>
+    <string name="etPassword">Enter password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvTitle">RENDIMIENTO</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="hintKm">Kilómetros Recorridos</string>
+    <string name="hintMinutos">Minutos Jugados</string>
+    <string name="tvRendimiento">El rendimiento es:</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navListado">
+    <fragment
+        android:id="@+id/navListado"
+        android:name="dev.williamscg.pc01_resolucin.ui.players.ListadoFragment"
+        android:label="Listado"
+        tools:layout="@layout/fragment_listado" />
+    <fragment
+        android:id="@+id/navRendimiento"
+        android:name="dev.williamscg.pc01_resolucin.ui.rendimiento.RendimientoFragment"
+        android:label="Rendimiento"
+        tools:layout="@layout/fragment_rendimiento" />
+    <fragment
+        android:id="@+id/navEquipo"
+        android:name="dev.williamscg.pc01_resolucin.ui.equipos.EquipoFragment"
+        android:label="Equipo"
+        tools:layout="@layout/fragment_equipo" />
+</navigation>
